@@ -55,21 +55,11 @@
 	<variant name="textlist-grid-small">
 		<label>Grid - Small</label>
 		<selectable>true</selectable>
-		<override>
-			<trigger>noMedia</trigger>
-			<mediaType>cover</mediaType>
-			<useVariant>textlist</useVariant>
-		</override>
 	</variant>
 	
 	<variant name="textlist-grid-large">
 		<label>Grid - Large</label>
 		<selectable>true</selectable>
-		<override>
-			<trigger>noMedia</trigger>
-			<mediaType>cover</mediaType>
-			<useVariant>textlist</useVariant>
-		</override>
 	</variant>
 		
 	<variant name="textlist">
