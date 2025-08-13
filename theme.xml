@@ -155,7 +155,7 @@ license:      	creative commons CC-BY-NC-SA
 				<text>ES-DE</text>
 				<fontPath>${fontPixelOperator}</fontPath>
 				<fontSize>${fontSizeBody}</fontSize>
-				<color>${mauve}</color>
+				<color>${blue}</color>
 				<letterCase>none</letterCase>
 				<stationary>never</stationary>
 			</text>
@@ -173,7 +173,7 @@ license:      	creative commons CC-BY-NC-SA
 		<view name="gamelist">
 			<grid name="game-grid">
 				<origin>0 0</origin>
-				<pos>0.25 0.25</pos>
+				<pos>0.25 0.23</pos>
 				<size>0.7001 0.67</size>
 				<imageType>cover</imageType>
 				<itemScale>1.025</itemScale>
@@ -198,7 +198,7 @@ license:      	creative commons CC-BY-NC-SA
 				<lineSpacing>1</lineSpacing>
 				<fontPath>${fontPixelOperator}</fontPath>
 				<fontSize>${fontSizeBody}</fontSize>
-				<color>${mauve}</color>
+				<color>${blue}</color>
 				<stationary>always</stationary>
 			</text>
 			<text name="systemName">
@@ -215,8 +215,8 @@ license:      	creative commons CC-BY-NC-SA
 			</text>
 			<text name="game-name">
 				<origin>0 0.5</origin>
-				<pos>0.25 0.175</pos>
-				<size>0.7 0.15</size>
+				<pos>0.25 0.165</pos>
+				<size>0.7 0.13</size>
 				<lineSpacing>1</lineSpacing>
 				<metadata>name</metadata>
 				<fontPath>${fontPixelOperatorBold}</fontPath>
@@ -349,7 +349,7 @@ license:      	creative commons CC-BY-NC-SA
 	</fontSize>
 	<fontSize name="medium">
 		<variables>
-			<fontSizeH1>0.06</fontSizeH1> 
+			<fontSizeH1>0.05875</fontSizeH1> 
 			<fontSizeBody>0.045</fontSizeBody> 
 			<fontSizeCaption>0.03625</fontSizeCaption>
 			<textlistLineSpacing>1.57</textlistLineSpacing>
@@ -357,7 +357,7 @@ license:      	creative commons CC-BY-NC-SA
 	</fontSize>
 	<fontSize name="large">
 		<variables>
-			<fontSizeH1>0.065</fontSizeH1> 
+			<fontSizeH1>0.0625</fontSizeH1> 
 			<fontSizeBody>0.05</fontSizeBody> 
 			<fontSizeCaption>0.04</fontSizeCaption>
 			<textlistLineSpacing>1.42</textlistLineSpacing>			
