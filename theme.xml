@@ -352,7 +352,7 @@ license:      	creative commons CC-BY-NC-SA
 			<fontSizeH1>0.05875</fontSizeH1> 
 			<fontSizeBody>0.045</fontSizeBody> 
 			<fontSizeCaption>0.03625</fontSizeCaption>
-			<textlistLineSpacing>1.57</textlistLineSpacing>
+			<textlistLineSpacing>1.595</textlistLineSpacing>
 		</variables>
 	</fontSize>
 	<fontSize name="large">
@@ -360,7 +360,7 @@ license:      	creative commons CC-BY-NC-SA
 			<fontSizeH1>0.0625</fontSizeH1> 
 			<fontSizeBody>0.05</fontSizeBody> 
 			<fontSizeCaption>0.04</fontSizeCaption>
-			<textlistLineSpacing>1.42</textlistLineSpacing>			
+			<textlistLineSpacing>1.48</textlistLineSpacing>			
 		</variables>
 	</fontSize>
 </theme>
