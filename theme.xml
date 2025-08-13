@@ -1,0 +1,366 @@
+<!--
+theme name: 	Retro-lab
+designed by:   	Rob Zombie
+license:      	creative commons CC-BY-NC-SA
+-->
+
+<theme>
+
+	<include>./_inc/systems/metadata-global/_default.xml</include>
+	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+	<include>./theme-customizations/metadata-custom/${system.theme}.xml</include>
+
+	<variables>
+		<spacerImage>./_inc/images/space.png</spacerImage>
+		<fontPixelOperator>./_inc/fonts/PixelOperator.ttf</fontPixelOperator>
+		<fontPixelOperatorBold>./_inc/fonts/PixelOperator-Bold.ttf</fontPixelOperatorBold>
+	</variables>
+	<include>./colors.xml</include>
+	
+	<!--
+	///
+	All Views
+	///
+	-->
+	<view name="system,gamelist">
+		<image name="system-background">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>${base}</color>
+			<zIndex>1</zIndex>
+		</image>
+		<image name="catpuccin-header">
+			<origin>0.5 1</origin>
+			<pos>0.5 0.1</pos>
+			<size>1 0.01</size>
+			<path>./_inc/images/${palette}.png</path>
+			<stationary>always</stationary>
+			<zIndex>3</zIndex>
+		</image>
+		<image name="catpuccin-header-background">
+			<origin>0.5 1</origin>
+			<pos>0.5 0.1</pos>
+			<size>1 0.1</size>
+			<path>${spacerImage}</path>
+			<stationary>always</stationary>
+			<color>${crust}</color>
+			<gradientType>vertical</gradientType>
+			<zIndex>2</zIndex>
+		</image>
+		<image name="catpuccin-footer">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.9</pos>
+			<size>1 0.01</size>
+			<path>./_inc/images/${palette}.png</path>
+			<stationary>always</stationary>
+			<zIndex>61</zIndex>
+		</image>
+		<image name="catpuccin-footer-background">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.9</pos>
+			<size>1 0.1</size>
+			<path>${spacerImage}</path>
+			<stationary>always</stationary>
+			<color>${crust}</color>
+			<gradientType>vertical</gradientType>
+			<zIndex>60</zIndex>
+		</image>
+		<helpsystem name="help">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.955</pos>
+			<fontSize>${fontSizeBody}</fontSize>
+			<fontSizeDimmed>${fontSizeBody}</fontSizeDimmed>
+			<fontPath>${fontPixelOperator}</fontPath>
+			<letterCase>capitalize</letterCase>
+			<iconColor>${blue}</iconColor>
+			<textColor>${blue}</textColor>
+			<originDimmed>0.5 0</originDimmed>
+			<posDimmed>0.5 0.94</posDimmed>
+			<textColorDimmed>cccccc</textColorDimmed>
+			<iconColorDimmed>cccccc</iconColorDimmed>
+			<opacityDimmed>1.0</opacityDimmed>
+			<letterCase>capitalize</letterCase>
+			<scope>view</scope>
+			<entries>back,start,a,b,l,r,lt,rt,down,up,up/down,up/down/left/right,ltrt,lr</entries>
+		</helpsystem>
+		<systemstatus name="system-status">
+			<origin>1 0.5</origin>
+			<pos>0.982 0.045</pos>
+			<fontPath>${fontPixelOperator}</fontPath>
+			<height>${fontSizeBody}</height>
+			<color>${blue}</color>
+			<customIcon icon="icon_wifi">./_inc/images/wifi.svg</customIcon>
+			<customIcon icon="icon_bluetooth">./_inc/images/bluetooth.svg</customIcon>
+			<customIcon icon="icon_cellular">./_inc/images/cellular.svg</customIcon>
+			<customIcon icon="icon_battery_charging">./_inc/images/battery_charging.svg</customIcon>
+			<customIcon icon="icon_battery_low">./_inc/images/battery_low.svg</customIcon>
+			<customIcon icon="icon_battery_medium">./_inc/images/battery_medium.svg</customIcon>
+			<customIcon icon="icon_battery_high">./_inc/images/battery_high.svg</customIcon>
+			<customIcon icon="icon_battery_full">./_inc/images/battery_full.svg</customIcon>
+		</systemstatus>
+		<clock name="clock">
+			<origin>0 0.5</origin>
+			<pos>0.018 0.045</pos>
+			<fontPath>${fontPixelOperator}</fontPath>
+			<fontSize>${fontSizeBody}</fontSize>
+			<color>${blue}</color>
+		</clock>
+	</view>
+	<view name="system">
+		<image name="system-background, system-background2">
+			<stationary>always</stationary>
+		</image>
+	</view>
+	<view name="gamelist">
+		<image name="system-background, system-background2">
+			<renderDuringTransitions>false</renderDuringTransitions>
+		</image>
+	</view>
+
+	<!--
+	///
+	System View - Textlist
+	///
+	-->
+	<variant name="textlist-grid-large, textlist-grid-small, textlist">	
+		<view name="system">
+			<textlist name="system-textlist">
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.5</pos>
+				<horizontalAlignment>center</horizontalAlignment>
+				<size>0.6875 0.65</size>
+				<fontPath>${fontPixelOperatorBold}</fontPath>
+				<fontSize>${fontSizeH1}</fontSize>
+				<lineSpacing>${textlistLineSpacing}</lineSpacing>
+				<selectorColor>00000000</selectorColor>
+				<primaryColor>${surface2}</primaryColor>
+				<secondaryColor>${surface2}</secondaryColor>
+				<selectedColor>${green}</selectedColor>
+				<selectedSecondaryColor>${green}</selectedSecondaryColor>
+				<selectedBackgroundColor>${surface2}</selectedBackgroundColor>
+				<selectedSecondaryBackgroundColor>${surface2}</selectedSecondaryBackgroundColor>
+				<selectedBackgroundMargins>0.1 0.1</selectedBackgroundMargins>
+				<selectedBackgroundCornerRadius>0.03</selectedBackgroundCornerRadius>
+				<letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
+				<letterCaseCustomCollections>capitalize</letterCaseCustomCollections>
+			</textlist>
+			<text name="system-label">
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.045</pos>
+				<size>0 0.06</size>
+				<lineSpacing>1</lineSpacing>
+				<text>ES-DE</text>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<color>${mauve}</color>
+				<letterCase>none</letterCase>
+				<stationary>never</stationary>
+			</text>
+		</view>
+	</variant>
+
+   
+	<!--
+	///
+	Gamelist View - Grid
+	///
+	-->
+	<include>./_inc/systems/coversize-grid/${systemCoverSize}.xml</include>
+	<variant name="textlist-grid-large, textlist-grid-small">	
+		<view name="gamelist">
+			<grid name="game-grid">
+				<origin>0 0</origin>
+				<pos>0.25 0.25</pos>
+				<size>0.7001 0.67</size>
+				<imageType>cover</imageType>
+				<itemScale>1.025</itemScale>
+				<imageRelativeScale>0.97</imageRelativeScale>
+				<scaleInwards>true</scaleInwards>
+				<fractionalRows>true</fractionalRows>
+				<imageCornerRadius>0.005</imageCornerRadius>
+				<selectorImage>./_inc/images/grid-selector.svg</selectorImage>
+				<selectorColor>${yellow}</selectorColor>
+				<selectorLayer>top</selectorLayer>
+				<selectorCornerRadius>0.009</selectorCornerRadius>
+				<textColor>${text}</textColor>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeCaption}</fontSize>
+				<textRelativeScale>0.8</textRelativeScale>
+			</grid>
+			<text name="systemName, autoCollectionName, customCollectionName">
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.045</pos>
+				<size>0.7 0.06</size>
+				<horizontalAlignment>center</horizontalAlignment>
+				<lineSpacing>1</lineSpacing>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<color>${mauve}</color>
+				<stationary>always</stationary>
+			</text>
+			<text name="systemName">
+				<text>${system.fullName.noCollections}</text>
+				<letterCase>none</letterCase>
+			</text>
+			<text name="autoCollectionName">
+				<text>${system.fullName.autoCollections}</text>
+				<letterCase>capitalize</letterCase>
+			</text>
+			<text name="customCollectionName">
+				<text>${system.fullName.customCollections}</text>
+				<letterCase>capitalize</letterCase>
+			</text>
+			<text name="game-name">
+				<origin>0 0.5</origin>
+				<pos>0.25 0.175</pos>
+				<size>0.7 0.15</size>
+				<lineSpacing>1</lineSpacing>
+				<metadata>name</metadata>
+				<fontPath>${fontPixelOperatorBold}</fontPath>
+				<fontSize>${fontSizeH1}</fontSize>
+				<color>${green}</color>
+				<letterCase>none</letterCase>
+			</text>
+			<datetime name="game-year">
+				<origin>0 0</origin>
+				<size>0.232 0.03</size>
+				<pos>0.018 0.355</pos>
+				<metadata>releasedate</metadata>
+				<defaultValue>:space:</defaultValue>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<color>${red}</color>
+				<format>%Y</format>
+				<letterCase>capitalize</letterCase>
+			</datetime>
+			<text name="game-genre">
+				<origin>0 0</origin>
+				<size>0.232 0.03</size>
+				<pos>0.018 0.4</pos>
+				<metadata>genre</metadata>
+				<defaultValue>:space:</defaultValue>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<color>${red}</color>
+				<letterCase>capitalize</letterCase>
+			</text>
+			<text name="game-developer">
+				<origin>0 0</origin>
+				<size>0.232 0.03</size>
+				<pos>0.018 0.445</pos>
+				<metadata>developer</metadata>
+				<defaultValue>:space:</defaultValue>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<color>${red}</color>
+				<letterCase>capitalize</letterCase>
+				<visible>false</visible>
+			</text>
+			<rating name="rating">
+				<origin>0 0</origin>
+				<size>0.232 0.03</size>
+				<pos>0.018 0.445</pos>				
+				<filledPath>./_inc/images/icon-star-filled.svg</filledPath>
+				<unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
+				<overlay>false</overlay>
+				<color>${red}</color>
+				<hideIfZero>true</hideIfZero>
+			</rating>
+			<text name="game-description">
+				<origin>0 0</origin>
+				<size>0.22 0.3</size>
+				<pos>0.018 0.535</pos>
+				<metadata>description</metadata>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeCaption}</fontSize>
+				<lineSpacing>1.1</lineSpacing>
+				<color>${text}</color>
+				<letterCase>none</letterCase>
+			</text>
+		</view>		
+	</variant>
+	
+	<!--
+	///
+	Gamelist View - Textlist
+	///
+	-->
+	<variant name="textlist">	
+		<view name="gamelist">
+			<textlist name="game-textlist">
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.5</pos>
+				<horizontalAlignment>center</horizontalAlignment>
+				<size>0.6875 0.65</size>
+				<fontPath>${fontPixelOperatorBold}</fontPath>
+				<fontSize>${fontSizeH1}</fontSize>
+				<lineSpacing>${textlistLineSpacing}</lineSpacing>
+				<selectorColor>00000000</selectorColor>
+				<primaryColor>${surface2}</primaryColor>
+				<secondaryColor>${surface2}</secondaryColor>
+				<selectedColor>${green}</selectedColor>
+				<selectedSecondaryColor>${green}</selectedSecondaryColor>
+				<selectedBackgroundColor>${surface2}</selectedBackgroundColor>
+				<selectedSecondaryBackgroundColor>${surface2}</selectedSecondaryBackgroundColor>
+				<selectedBackgroundMargins>0.1 0.1</selectedBackgroundMargins>
+				<selectedBackgroundCornerRadius>0.03</selectedBackgroundCornerRadius>
+			</textlist>
+			<text name="systemName, autoCollectionName, customCollectionName">
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.045</pos>
+				<size>0.7 0.06</size>
+				<horizontalAlignment>center</horizontalAlignment>
+				<lineSpacing>1</lineSpacing>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<color>${mauve}</color>
+				<stationary>always</stationary>
+			</text>
+			<text name="systemName">
+				<text>${system.fullName.noCollections}</text>
+				<letterCase>none</letterCase>
+			</text>
+			<text name="autoCollectionName">
+				<text>${system.fullName.autoCollections}</text>
+				<letterCase>capitalize</letterCase>
+			</text>
+			<text name="customCollectionName">
+				<text>${system.fullName.customCollections}</text>
+				<letterCase>capitalize</letterCase>
+			</text>
+		</view>			
+	</variant>
+	
+	<!--
+	///
+	Font Size
+	///
+	-->
+	<fontSize name="small">
+		<variables>
+			<fontSizeH1>0.055</fontSizeH1> 
+			<fontSizeBody>0.04</fontSizeBody> 
+			<fontSizeCaption>0.0325</fontSizeCaption>
+			<textlistLineSpacing>1.72</textlistLineSpacing>
+		</variables>
+	</fontSize>
+	<fontSize name="medium">
+		<variables>
+			<fontSizeH1>0.06</fontSizeH1> 
+			<fontSizeBody>0.045</fontSizeBody> 
+			<fontSizeCaption>0.03625</fontSizeCaption>
+			<textlistLineSpacing>1.57</textlistLineSpacing>
+		</variables>
+	</fontSize>
+	<fontSize name="large">
+		<variables>
+			<fontSizeH1>0.065</fontSizeH1> 
+			<fontSizeBody>0.05</fontSizeBody> 
+			<fontSizeCaption>0.04</fontSizeCaption>
+			<textlistLineSpacing>1.42</textlistLineSpacing>			
+		</variables>
+	</fontSize>
+</theme>

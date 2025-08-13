@@ -1,0 +1,9 @@
+Catppuccin color palette - https://catppuccin.com/
+
+Pixel Operator font by Jayvee Enaguas  - https://www.dafont.com/pixel-operator.font
+
+system icons - https://pixelarticons.com/
+
+Rating star icons: 
+empty pixel star by Raúl Inc from <a href="https://thenounproject.com/browse/icons/term/empty-pixel-star/" target="_blank" title="empty pixel star Icons">Noun Project</a> (CC BY 3.0)
+full pixel star by Raúl Inc from <a href="https://thenounproject.com/browse/icons/term/full-pixel-star/" target="_blank" title="full pixel star Icons">Noun Project</a> (CC BY 3.0)
