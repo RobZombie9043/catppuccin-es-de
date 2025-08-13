@@ -4,7 +4,7 @@
 
 # Catppuccin-es-de
 
-A cozy, pastel-inspired theme for **ES-DE** inspired by the **Catppuccin** color palette
+A cozy, pastel-inspired theme for **ES-DE** based on the **Catppuccin** color palette
 
 <img width="1830" height="28" alt="macchiato" src="https://github.com/user-attachments/assets/eba47111-8db7-453a-acfc-7c24d3b7d3c6" />
 
