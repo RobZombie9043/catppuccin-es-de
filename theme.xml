@@ -36,7 +36,7 @@ license:      	creative commons CC-BY-NC-SA
 			<origin>0.5 1</origin>
 			<pos>0.5 0.1</pos>
 			<size>1 0.01</size>
-			<path>./_inc/images/${palette}.png</path>
+			<path>./_inc/images/accent_bar_${palette}.png</path>
 			<stationary>always</stationary>
 			<zIndex>3</zIndex>
 		</image>
@@ -54,7 +54,7 @@ license:      	creative commons CC-BY-NC-SA
 			<origin>0.5 0</origin>
 			<pos>0.5 0.9</pos>
 			<size>1 0.01</size>
-			<path>./_inc/images/${palette}.png</path>
+			<path>./_inc/images/accent_bar_${palette}.png</path>
 			<stationary>always</stationary>
 			<zIndex>61</zIndex>
 		</image>
@@ -280,6 +280,26 @@ license:      	creative commons CC-BY-NC-SA
 				<color>${text}</color>
 				<letterCase>none</letterCase>
 			</text>
+			<video name="catpuccin-header-animated">
+				<origin>0.5 1</origin>
+				<pos>0.5 0.1</pos>
+				<size>1 0.01</size>
+				<path>./_inc/images/accent_bar_${palette}.mp4</path>
+				<stationary>always</stationary> 
+				<fadeInType>transparent</fadeInType>
+				<fadeInTime>0</fadeInTime>
+				<zIndex>4</zIndex>
+			</video>
+			<video name="catpuccin-footer-animated">
+				<origin>0.5 0</origin>
+				<pos>0.5 0.9</pos>
+				<size>1 0.01</size>
+				<path>./_inc/images/accent_bar_${palette}.mp4</path>
+				<stationary>always</stationary> 
+				<fadeInType>transparent</fadeInType>
+				<fadeInTime>0</fadeInTime>
+				<zIndex>61</zIndex>
+			</video>
 		</view>		
 	</variant>
 	
@@ -331,6 +351,26 @@ license:      	creative commons CC-BY-NC-SA
 				<text>${system.fullName.customCollections}</text>
 				<letterCase>capitalize</letterCase>
 			</text>
+			<video name="catpuccin-header-animated">
+				<origin>0.5 1</origin>
+				<pos>0.5 0.1</pos>
+				<size>1 0.01</size>
+				<path>./_inc/images/accent_bar_${palette}.mp4</path>
+				<stationary>always</stationary> 
+				<fadeInType>transparent</fadeInType>
+				<fadeInTime>0</fadeInTime>
+				<zIndex>4</zIndex>
+			</video>
+			<video name="catpuccin-footer-animated">
+				<origin>0.5 0</origin>
+				<pos>0.5 0.9</pos>
+				<size>1 0.01</size>
+				<path>./_inc/images/accent_bar_${palette}.mp4</path>
+				<stationary>always</stationary> 
+				<fadeInType>transparent</fadeInType>
+				<fadeInTime>0</fadeInTime>
+				<zIndex>61</zIndex>
+			</video>
 		</view>			
 	</variant>
 	

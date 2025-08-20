@@ -58,7 +58,7 @@
 			<base>303446</base>
 			<mantle>292c3c</mantle>
 			<crust>232634</crust>
-			<palette>macchiato</palette>
+			<palette>frappe</palette>
 		</variables>
     </colorScheme>
 	<colorScheme name="macchiato">
@@ -120,7 +120,7 @@
 			<base>1e1e2e</base>
 			<mantle>181825</mantle>
 			<crust>11111b</crust>
-			<palette>macchiato</palette>
+			<palette>mocha</palette>
 		</variables>
     </colorScheme>
 </theme>
