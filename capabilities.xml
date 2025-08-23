@@ -52,18 +52,28 @@
 	Variants
 	///
 	-->
+	<variant name="grid-grid-small">
+		<label>[Grid] Grid - Small</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<variant name="grid-grid-large">
+		<label>[Grid] Grid - Large</label>
+		<selectable>true</selectable>
+	</variant>
+	
 	<variant name="textlist-grid-small">
-		<label>Grid - Small</label>
+		<label>[List] Grid - Small</label>
 		<selectable>true</selectable>
 	</variant>
 	
 	<variant name="textlist-grid-large">
-		<label>Grid - Large</label>
+		<label>[List] Grid - Large</label>
 		<selectable>true</selectable>
 	</variant>
-		
+	
 	<variant name="textlist">
-		<label>List</label>
+		<label>[List] List</label>
 		<selectable>true</selectable>
 	</variant>
 

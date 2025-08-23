@@ -8,7 +8,6 @@ license:      	creative commons CC-BY-NC-SA
 
 	<include>./_inc/systems/metadata-global/_default.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
-	<include>./theme-customizations/metadata-custom/${system.theme}.xml</include>
 
 	<variables>
 		<spacerImage>./_inc/images/space.png</spacerImage>
@@ -122,6 +121,29 @@ license:      	creative commons CC-BY-NC-SA
 
 	<!--
 	///
+	System View - all
+	///
+	-->
+	<variant name="all">	
+		<view name="system">
+			<text name="system-label">
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.045</pos>
+				<size>0 0.06</size>
+				<lineSpacing>1</lineSpacing>
+				<text>ES-DE</text>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<color>${blue}</color>
+				<letterCase>none</letterCase>
+				<stationary>never</stationary>
+			</text>
+		</view>
+	</variant>
+	
+	
+	<!--
+	///
 	System View - Textlist
 	///
 	-->
@@ -147,21 +169,206 @@ license:      	creative commons CC-BY-NC-SA
 				<letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
 				<letterCaseCustomCollections>capitalize</letterCaseCustomCollections>
 			</textlist>
-			<text name="system-label">
-				<origin>0.5 0.5</origin>
-				<pos>0.5 0.045</pos>
-				<size>0 0.06</size>
-				<lineSpacing>1</lineSpacing>
-				<text>ES-DE</text>
-				<fontPath>${fontPixelOperator}</fontPath>
-				<fontSize>${fontSizeBody}</fontSize>
-				<color>${blue}</color>
-				<letterCase>none</letterCase>
-				<stationary>never</stationary>
-			</text>
 		</view>
 	</variant>
 
+	<!--
+	///
+	System View - Grid
+	///
+	-->
+	<variant name="grid-grid-large, grid-grid-small">	
+		<view name="system">
+			<grid name="system-grid">
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.5</pos>
+				<staticImage>./_inc/systems/system-logo-white/${system.theme}.svg</staticImage>
+				<imageColor>${base}</imageColor>
+				<itemScale>1.02</itemScale>
+				<imageRelativeScale>0.8</imageRelativeScale>
+				<backgroundColor>${overlay1}</backgroundColor>
+				<backgroundCornerRadius>0.009</backgroundCornerRadius>
+				<scaleInwards>true</scaleInwards>
+				<fractionalRows>false</fractionalRows>
+				<selectorImage>./_inc/images/grid-selector.svg</selectorImage>
+				<selectorColor>${yellow}</selectorColor>
+				<selectorLayer>top</selectorLayer>
+				<selectorCornerRadius>0.009</selectorCornerRadius>
+				<textColor>${text}</textColor>
+				<fontPath>${fontPixelOperatorBold}</fontPath>
+				<fontSize>${fontSizeH1}</fontSize>
+			</grid>
+		</view>
+	</variant>
+	
+	<variant name="grid-grid-small">	
+		<aspectRatio name="1:1">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.75 0.75</size>
+					<itemSize>0.233333333333333 0.233333333333333</itemSize>
+					<itemSpacing>0.025 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="5:4">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.806666666666667 0.75</size>
+					<itemSize>0.186666666666667 0.233333333333333</itemSize>
+					<itemSpacing>0.02 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="4:3">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.75625 0.75</size>
+					<itemSize>0.175 0.233333333333333</itemSize>
+					<itemSpacing>0.01875 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="3:2">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.844444444444444 0.75</size>
+					<itemSize>0.155555555555556 0.233333333333333</itemSize>
+					<itemSpacing>0.0166666666666667 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="16:10">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.791666666666667 0.75</size>
+					<itemSize>0.145833333333333 0.233333333333333</itemSize>
+					<itemSpacing>0.015625 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="16:9">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.8578125 0.75</size>
+					<itemSize>0.13125 0.233333333333333</itemSize>
+					<itemSpacing>0.0140625 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="19.5:9">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.823076923076923 0.75</size>
+					<itemSize>0.107692307692308 0.233333333333333</itemSize>
+					<itemSpacing>0.0115384615384615 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="21:9">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.875 0.75</size>
+					<itemSize>0.1 0.233333333333333</itemSize>
+					<itemSpacing>0.0107142857142857 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="8:7">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.878225806451613 0.75</size>
+					<itemSize>0.203225806451613 0.233333333333333</itemSize>
+					<itemSpacing>0.0217741935483871 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+	</variant>
+   
+   <variant name="grid-grid-large">	
+		<aspectRatio name="1:1">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.75 0.75</size>
+					<itemSize>0.233333333333333 0.233333333333333</itemSize>
+					<itemSpacing>0.025 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="5:4">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.91 0.75</size>
+					<itemSize>0.29 0.3625</itemSize>
+					<itemSpacing>0.02 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="4:3">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.853125 0.75</size>
+					<itemSize>0.271875 0.3625</itemSize>
+					<itemSpacing>0.01875 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="3:2">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.758333333333333 0.75</size>
+					<itemSize>0.241666666666667 0.3625</itemSize>
+					<itemSpacing>0.0166666666666667 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="16:10">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.7109375 0.75</size>
+					<itemSize>0.2265625 0.3625</itemSize>
+					<itemSpacing>0.015625 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="16:9">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.8578125 0.75</size>
+					<itemSize>0.20390625 0.3625</itemSize>
+					<itemSpacing>0.0140625 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="19.5:9">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.882692307692308 0.75</size>
+					<itemSize>0.167307692307692 0.3625</itemSize>
+					<itemSpacing>0.0115384615384615 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="21:9">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.819642857142857 0.75</size>
+					<itemSize>0.155357142857143 0.3625</itemSize>
+					<itemSpacing>0.0107142857142857 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="8:7">			
+			<view name="system">		
+				<grid name="system-grid">	
+					<size>0.878225806451613 0.75</size>
+					<itemSize>0.203225806451613 0.233333333333333</itemSize>
+					<itemSpacing>0.0217741935483871 0.025</itemSpacing>
+				</grid>	
+			</view>		
+		</aspectRatio>			
+					
+	</variant>
    
 	<!--
 	///
@@ -169,7 +376,7 @@ license:      	creative commons CC-BY-NC-SA
 	///
 	-->
 	<include>./_inc/systems/coversize-grid/${systemCoverSize}.xml</include>
-	<variant name="textlist-grid-large, textlist-grid-small">	
+	<variant name="textlist-grid-large, textlist-grid-small, grid-grid-large, grid-grid-small">	
 		<view name="gamelist">
 			<grid name="game-grid">
 				<origin>0 0</origin>
