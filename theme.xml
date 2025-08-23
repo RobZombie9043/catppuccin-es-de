@@ -183,7 +183,7 @@ license:      	creative commons CC-BY-NC-SA
 				<origin>0.5 0.5</origin>
 				<pos>0.5 0.5</pos>
 				<staticImage>./_inc/systems/system-logo-white/${system.theme}.svg</staticImage>
-				<imageColor>${base}</imageColor>
+				<imageColor>${crust}</imageColor>
 				<itemScale>1.02</itemScale>
 				<imageRelativeScale>0.8</imageRelativeScale>
 				<backgroundColor>${overlay1}</backgroundColor>
