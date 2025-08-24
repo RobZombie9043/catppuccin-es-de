@@ -182,12 +182,10 @@ license:      	creative commons CC-BY-NC-SA
 			<grid name="system-grid">
 				<origin>0.5 0.5</origin>
 				<pos>0.5 0.5</pos>
-				<staticImage>./_inc/systems/system-logo-white/${system.theme}.svg</staticImage>
-				<imageColor>${crust}</imageColor>
+				<staticImage>./_inc/systems/logos/${palette}/${system.theme}.png</staticImage>
 				<itemScale>1.02</itemScale>
-				<imageRelativeScale>0.8</imageRelativeScale>
-				<backgroundColor>${overlay1}</backgroundColor>
-				<backgroundCornerRadius>0.009</backgroundCornerRadius>
+				<imageRelativeScale>1</imageRelativeScale>
+				<imageCornerRadius>0.009</imageCornerRadius>
 				<scaleInwards>true</scaleInwards>
 				<fractionalRows>false</fractionalRows>
 				<selectorImage>./_inc/images/grid-selector.svg</selectorImage>
