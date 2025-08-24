@@ -242,7 +242,7 @@ license:      	creative commons CC-BY-NC-SA
 			<view name="system">		
 				<grid name="system-grid">	
 					<size>0.791666666666667 0.75</size>
-					<itemSize>0.145833333333333 0.233333333333333</itemSize>
+					<itemSize>0.145833333333333 0.23329</itemSize>
 					<itemSpacing>0.015625 0.025</itemSpacing>
 				</grid>	
 			</view>		
