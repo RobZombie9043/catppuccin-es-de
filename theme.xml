@@ -382,7 +382,7 @@ license:      	creative commons CC-BY-NC-SA
 				<size>0.7001 0.67</size>
 				<imageType>cover</imageType>
 				<itemScale>1.025</itemScale>
-				<imageRelativeScale>0.97</imageRelativeScale>
+				<imageRelativeScale>0.99</imageRelativeScale>
 				<scaleInwards>true</scaleInwards>
 				<fractionalRows>true</fractionalRows>
 				<imageCornerRadius>0.005</imageCornerRadius>
