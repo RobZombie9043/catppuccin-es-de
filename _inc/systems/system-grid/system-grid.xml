@@ -145,7 +145,7 @@
 		</fontSize>		
 		<fontSize name="large">
 			<variables>	
-				<sysGridSize>0.653225806 0.75</sysGridSize>
+				<sysGridSize>0.990725806 0.75</sysGridSize>
 				<sysGridItemSize>0.31572 0.3625</sysGridItemSize>
 				<sysGridItemSpacing>0.02177 0.025</sysGridItemSpacing>
 			</variables>	
