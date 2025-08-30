@@ -9,13 +9,12 @@ A cozy, pastel-inspired theme for **ES-DE** based on the **Catppuccin** color pa
 <img width="1830" height="28" alt="macchiato" src="https://github.com/user-attachments/assets/eba47111-8db7-453a-acfc-7c24d3b7d3c6" />
 
 ## Preview
-| Latte | Frappé | Macchiato | Mocha |
-|----|----|----|----|
-|<img width="1240" height="1080" alt="Screenshot_20250830-210733" src="https://github.com/user-attachments/assets/7309c374-df74-48c0-8ac8-c0c9dc4e594a" />|<img width="1240" height="1080" alt="Screenshot_20250830-210746" src="https://github.com/user-attachments/assets/d724e5a7-fa95-4bd8-9dde-86804200cbd0" />|<img width="1240" height="1080" alt="Screenshot_20250830-210831" src="https://github.com/user-attachments/assets/0ab97f26-f4a7-4eea-9740-e5034c521015" />|<img width="1240" height="1080" alt="Screenshot_20250830-210819" src="https://github.com/user-attachments/assets/5e172cb8-cc10-469d-be1d-1610fb33ed69" />|
-
-| Latte | Frappé | Macchiato | Mocha |
-|----|----|----|----|
-|<img width="1240" height="1080" alt="Screenshot_20250813-221059" src="https://github.com/user-attachments/assets/b8798f1e-41a3-417f-9be6-3e1b59ea74df" />|<img width="1240" height="1080" alt="Screenshot_20250813-221127" src="https://github.com/user-attachments/assets/d79b3af6-2330-49bc-9ced-90da44715aa4" />|<img width="1240" height="1080" alt="Screenshot_20250813-221159" src="https://github.com/user-attachments/assets/d89b9cd6-2807-4430-b693-1f5eaa07dbbb" />|<img width="1240" height="1080" alt="Screenshot_20250813-221226" src="https://github.com/user-attachments/assets/c1bed35d-499d-480c-ab3b-fdf227ea7785" />|
+| Color | System View | Gamelist View | 
+|----|----|----|
+|**Latte**|<img width="1240" height="1080" alt="Screenshot_20250830-210733" src="https://github.com/user-attachments/assets/7309c374-df74-48c0-8ac8-c0c9dc4e594a" />|<img width="1240" height="1080" alt="Screenshot_20250813-221059" src="https://github.com/user-attachments/assets/b8798f1e-41a3-417f-9be6-3e1b59ea74df" />|
+|**Frappé**|<img width="1240" height="1080" alt="Screenshot_20250830-210746" src="https://github.com/user-attachments/assets/d724e5a7-fa95-4bd8-9dde-86804200cbd0" />|<img width="1240" height="1080" alt="Screenshot_20250813-221127" src="https://github.com/user-attachments/assets/d79b3af6-2330-49bc-9ced-90da44715aa4" />|
+|**Macchiato**|<img width="1240" height="1080" alt="Screenshot_20250830-210819" src="https://github.com/user-attachments/assets/5e172cb8-cc10-469d-be1d-1610fb33ed69" />|<img width="1240" height="1080" alt="Screenshot_20250813-221159" src="https://github.com/user-attachments/assets/d89b9cd6-2807-4430-b693-1f5eaa07dbbb" />|
+|**Mocha**|<img width="1240" height="1080" alt="Screenshot_20250830-210831" src="https://github.com/user-attachments/assets/0ab97f26-f4a7-4eea-9740-e5034c521015" />|<img width="1240" height="1080" alt="Screenshot_20250813-221226" src="https://github.com/user-attachments/assets/c1bed35d-499d-480c-ab3b-fdf227ea7785" />|
 
 ## **Configuration Options**
 
