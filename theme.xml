@@ -188,12 +188,12 @@ license:      	creative commons CC-BY-NC-SA
 				<itemSpacing>${sysGridItemSpacing}</itemSpacing>
 				<staticImage>./_inc/systems/logos/${palette}/${system.theme}.png</staticImage>
 				<itemScale>1.025</itemScale>
-				<imageRelativeScale>0.99</imageRelativeScale>
+				<imageRelativeScale>0.995</imageRelativeScale>
 				<imageCornerRadius>0.009</imageCornerRadius>
 				<scaleInwards>true</scaleInwards>
 				<fractionalRows>false</fractionalRows>
 				<selectorImage>./_inc/images/grid-selector.svg</selectorImage>
-				<selectorColor>${text}</selectorColor>
+				<selectorColor>FFFFFF99</selectorColor>
 				<selectorLayer>top</selectorLayer>
 				<selectorCornerRadius>0.009</selectorCornerRadius>
 				<textColor>${text}</textColor>
