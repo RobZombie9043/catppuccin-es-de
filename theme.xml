@@ -320,18 +320,6 @@ license:      	creative commons CC-BY-NC-SA
 				<color>${red}</color>
 				<letterCase>capitalize</letterCase>
 			</text>
-			<text name="game-developer">
-				<origin>0 0</origin>
-				<size>0.232 0.03</size>
-				<pos>0.018 0.445</pos>
-				<metadata>developer</metadata>
-				<defaultValue>:space:</defaultValue>
-				<fontPath>${fontPixelOperator}</fontPath>
-				<fontSize>${fontSizeBody}</fontSize>
-				<color>${red}</color>
-				<letterCase>capitalize</letterCase>
-				<visible>false</visible>
-			</text>
 			<rating name="rating">
 				<origin>0 0</origin>
 				<size>0.232 0.03</size>
@@ -410,17 +398,15 @@ license:      	creative commons CC-BY-NC-SA
 				<size>0.4 0.65</size>
 				<selectedBackgroundMargins>0.05 0.05</selectedBackgroundMargins>
 			</textlist>
-			<image name="game-image">
-				<origin>0.5 0.5</origin>
-				<pos>0.775 0.5</pos>
-				<maxSize>0.35 0.65</maxSize>
-			</image>
 		</view>			
 	</variant>
 	
 	<variant name="grid-textlist-cover, textlist-textlist-cover">	
 		<view name="gamelist">
 			<image name="game-image">
+				<origin>0.5 0.5</origin>
+				<pos>0.775 0.5</pos>
+				<maxSize>0.35 0.65</maxSize>
 				<imageType>cover</imageType>
 				<cornerRadius>0.03</cornerRadius>
 			</image>
@@ -429,9 +415,59 @@ license:      	creative commons CC-BY-NC-SA
 	
 	<variant name="grid-textlist-miximage, textlist-textlist-miximage">	
 		<view name="gamelist">
-			<image name="game-image">
+			<video name="game-image">
+				<origin>0.5 1</origin>
+				<pos>0.775 0.5</pos>
+				<maxSize>0.35 0.35</maxSize>
 				<imageType>miximage</imageType>
-			</image>
+				<pillarboxes>false</pillarboxes>
+			</video>
+			<datetime name="game-year">
+				<origin>0.5 0</origin>
+				<size>0.35 0.03</size>
+				<pos>0.775 0.525</pos>
+				<metadata>releasedate</metadata>
+				<defaultValue>:space:</defaultValue>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<color>${red}</color>
+				<format>%Y</format>
+				<letterCase>capitalize</letterCase>
+				<horizontalAlignment>center</horizontalAlignment>
+			</datetime>
+			<text name="game-genre">
+				<origin>0.5 0</origin>
+				<size>0.35 0.03</size>
+				<pos>0.775 0.57</pos>
+				<metadata>genre</metadata>
+				<defaultValue>:space:</defaultValue>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<color>${red}</color>
+				<letterCase>capitalize</letterCase>
+				<horizontalAlignment>center</horizontalAlignment>
+			</text>
+			<rating name="rating">
+				<origin>0.5 0</origin>
+				<size>0.35 0.03</size>
+				<pos>0.775 0.615</pos>				
+				<filledPath>./_inc/images/icon-star-filled.svg</filledPath>
+				<unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
+				<overlay>false</overlay>
+				<color>${red}</color>
+				<hideIfZero>true</hideIfZero>
+			</rating>
+			<text name="game-description">
+				<origin>0.5 0</origin>
+				<size>0.35 0.18</size>
+				<pos>0.775 0.67</pos>
+				<metadata>description</metadata>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeCaption}</fontSize>
+				<lineSpacing>1.1</lineSpacing>
+				<color>${text}</color>
+				<letterCase>none</letterCase>
+			</text>
 		</view>			
 	</variant>
 	
