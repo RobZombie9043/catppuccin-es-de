@@ -187,7 +187,7 @@ license:      	creative commons CC-BY-NC-SA
 				<itemSize>${sysGridItemSize}</itemSize>
 				<itemSpacing>${sysGridItemSpacing}</itemSpacing>
 				<staticImage>./_inc/systems/logos/${palette}/${system.theme}.png</staticImage>
-				<itemScale>1.05</itemScale>
+				<itemScale>1.025</itemScale>
 				<imageRelativeScale>0.99</imageRelativeScale>
 				<imageCornerRadius>0.009</imageCornerRadius>
 				<scaleInwards>true</scaleInwards>
