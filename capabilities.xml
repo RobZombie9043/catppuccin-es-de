@@ -22,7 +22,6 @@
 	Font Size
 	///
 	-->
-	<!-- <fontSize>small</fontSize> -->
 	<fontSize>medium</fontSize>
 	<fontSize>large</fontSize>
 		
@@ -58,12 +57,12 @@
 	</variant>
 	
 	<variant name="grid-textlist-cover">
-		<label>[Grid] List (Boxart)</label>
+		<label>[Grid] List: Basic</label>
 		<selectable>true</selectable>
 	</variant>
 	
 	<variant name="grid-textlist-miximage">
-		<label>[Grid] List (Miximage)</label>
+		<label>[Grid] List: Detailed</label>
 		<selectable>true</selectable>
 	</variant>
 	
@@ -78,7 +77,7 @@
 	</variant>
 	
 	<variant name="textlist-textlist-cover">
-		<label>[List] List (Boxart)</label>
+		<label>[List] List: Basic</label>
 		<selectable>true</selectable>
 		<override>
 			<trigger>noMedia</trigger>
@@ -88,7 +87,7 @@
 	</variant>
 	
 	<variant name="textlist-textlist-miximage">
-		<label>[List] List (Miximage)</label>
+		<label>[List] List: Detailed</label>
 		<selectable>true</selectable>
 		<override>
 			<trigger>noMedia</trigger>
@@ -102,17 +101,17 @@
 	Color Schemes
 	///
 	-->
-	<colorScheme name="latte">
-        <label>Latte</label>
-    </colorScheme>
-	<colorScheme name="frappe">
-        <label>Frappé</label>
+	<colorScheme name="mocha">
+        <label>Mocha</label>
     </colorScheme>
 	<colorScheme name="macchiato">
         <label>Macchiato</label>
     </colorScheme>
-	<colorScheme name="mocha">
-        <label>Mocha</label>
+	<colorScheme name="frappe">
+        <label>Frappé</label>
+    </colorScheme>
+	<colorScheme name="latte">
+        <label>Latte</label>
     </colorScheme>
 	
 </themeCapabilities>
