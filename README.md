@@ -11,7 +11,7 @@ A cozy, pastel-inspired theme for **ES-DE** based on the **Catppuccin** color pa
 ## Preview
 | Latte | Frappé | Macchiato | Mocha |
 |----|----|----|----|
-|<img width="1240" height="1080" alt="Screenshot_20250813-221024" src="https://github.com/user-attachments/assets/9ba5589d-9cb4-4b24-99c1-c9baa3ebcfb1" />|<img width="1240" height="1080" alt="Screenshot_20250813-221120" src="https://github.com/user-attachments/assets/db78fb72-98be-45ec-a3a5-1f959db5d429" />|<img width="1240" height="1080" alt="Screenshot_20250813-221149" src="https://github.com/user-attachments/assets/bdbec0f7-c70b-413f-9fb7-ca5394dbb3d8" />|<img width="1240" height="1080" alt="Screenshot_20250813-221219" src="https://github.com/user-attachments/assets/f6559f7a-3464-4267-9330-7f947ef4da49" />|
+|<img width="1240" height="1080" alt="Screenshot_20250830-210733" src="https://github.com/user-attachments/assets/7309c374-df74-48c0-8ac8-c0c9dc4e594a" />|<img width="1240" height="1080" alt="Screenshot_20250830-210746" src="https://github.com/user-attachments/assets/d724e5a7-fa95-4bd8-9dde-86804200cbd0" />|<img width="1240" height="1080" alt="Screenshot_20250830-210831" src="https://github.com/user-attachments/assets/0ab97f26-f4a7-4eea-9740-e5034c521015" />|<img width="1240" height="1080" alt="Screenshot_20250830-210819" src="https://github.com/user-attachments/assets/5e172cb8-cc10-469d-be1d-1610fb33ed69" />|
 
 | Latte | Frappé | Macchiato | Mocha |
 |----|----|----|----|
