@@ -21,10 +21,13 @@ A cozy, pastel-inspired theme for **ES-DE** based on the **Catppuccin** color pa
 
 - This theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE
   
-- `Theme Variant` - sets the theme variant adjusting the gamelist view. Each variant has a Modern, Classic or Video option which adjusts the background Artwork used in the theme
-   - `Grid - Small`
-   - `Grid - Large`
-   - `List`
+- `Theme Variant` - sets the theme variant adjusting the gamelist view. 
+   - `[Grid] Grid`
+   - `[Grid] List: Basic`
+   - `[Grid] List: Detailed`
+   - `[List] Grid`
+   - `[List] List: Basic`
+   - `[List] List: Detailed`
 
  - `Theme Color Scheme` - sets the theme color scheme based on the 4 flavors of Catppuccin
    - `Latte`
@@ -32,8 +35,7 @@ A cozy, pastel-inspired theme for **ES-DE** based on the **Catppuccin** color pa
    - `Macchiato`
    - `Mocha`
      
-- `Font Size` - enables you to change the size of the fonts displayed in the theme.
-   - `Small`
+- `Font Size` - enables you to change the size of the fonts displayed in the theme. It will also scale the size of the grid and textlist.
    - `Medium`
    - `Large`
      
