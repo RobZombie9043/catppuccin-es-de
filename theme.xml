@@ -467,6 +467,7 @@ license:      	creative commons CC-BY-NC-SA
 				<lineSpacing>1.1</lineSpacing>
 				<color>${text}</color>
 				<letterCase>none</letterCase>
+				<horizontalAlignment>center</horizontalAlignment>
 			</text>
 		</view>			
 	</variant>
