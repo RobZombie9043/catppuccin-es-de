@@ -22,7 +22,7 @@
 	Font Size
 	///
 	-->
-	<fontSize>small</fontSize>
+	<!-- <fontSize>small</fontSize> -->
 	<fontSize>medium</fontSize>
 	<fontSize>large</fontSize>
 		
@@ -52,29 +52,49 @@
 	Variants
 	///
 	-->
-	<variant name="grid-grid-small">
-		<label>[Grid] Grid - Small</label>
+	<variant name="grid-grid">
+		<label>[Grid] Grid</label>
 		<selectable>true</selectable>
 	</variant>
 	
-	<variant name="grid-grid-large">
-		<label>[Grid] Grid - Large</label>
+	<variant name="grid-textlist-cover">
+		<label>[Grid] List (Boxart)</label>
 		<selectable>true</selectable>
 	</variant>
 	
-	<variant name="textlist-grid-small">
-		<label>[List] Grid - Small</label>
+	<variant name="grid-textlist-miximage">
+		<label>[Grid] List (Miximage)</label>
 		<selectable>true</selectable>
 	</variant>
 	
-	<variant name="textlist-grid-large">
-		<label>[List] Grid - Large</label>
+	<variant name="textlist-grid">
+		<label>[List] Grid</label>
 		<selectable>true</selectable>
 	</variant>
 	
 	<variant name="textlist">
 		<label>[List] List</label>
+		<selectable>false</selectable>
+	</variant>
+	
+	<variant name="textlist-textlist-cover">
+		<label>[List] List (Boxart)</label>
 		<selectable>true</selectable>
+		<override>
+			<trigger>noMedia</trigger>
+			<mediaType>cover</mediaType>
+			<useVariant>textlist</useVariant>
+		</override>
+	</variant>
+	
+	<variant name="textlist-textlist-miximage">
+		<label>[List] List (Miximage)</label>
+		<selectable>true</selectable>
+		<override>
+			<trigger>noMedia</trigger>
+			<mediaType>miximage</mediaType>
+			<useVariant>textlist</useVariant>
+		</override>
 	</variant>
 
 	<!--

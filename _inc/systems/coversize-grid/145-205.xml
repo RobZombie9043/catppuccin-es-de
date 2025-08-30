@@ -1,151 +1,128 @@
 <theme>						
-	<variant name="textlist-grid-large, grid-grid-large">					
-		<aspectRatio name="1:1">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.226666666666667 0.320459770114942</itemSize>	
-					<itemSpacing>0.01 0.01</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="5:4">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.1675 0.296012931034483</itemSize>	
-					<itemSpacing>0.01 0.0125</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="4:3">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.1675 0.315747126436782</itemSize>	
-					<itemSpacing>0.01 0.0133333333333333</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="3:2">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.1675 0.355215517241379</itemSize>	
-					<itemSpacing>0.01 0.015</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="16:10">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.1675 0.378896551724138</itemSize>	
-					<itemSpacing>0.01 0.016</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="16:9">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.1675 0.420996168582375</itemSize>	
-					<itemSpacing>0.01 0.0177777777777778</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="19.5:9">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.1675 0.51308908045977</itemSize>	
-					<itemSpacing>0.01 0.0216666666666667</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="21:9">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.132 0.435448275862069</itemSize>	
-					<itemSpacing>0.01 0.0233333333333333</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="8:7">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.226666666666667 0.367935291613453</itemSize>	
-					<itemSpacing>0.01 0.0114814814814815</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-	</variant>					
-						
-	<variant name="textlist-grid-small, grid-grid-small">					
-		<aspectRatio name="1:1">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.1675 0.236810344827586</itemSize>	
-					<itemSpacing>0.01 0.01</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="5:4">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.132 0.233275862068965</itemSize>	
-					<itemSpacing>0.01 0.0125</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="4:3">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.132 0.248827586206897</itemSize>	
-					<itemSpacing>0.01 0.0133333333333333</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="3:2">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.132 0.279931034482759</itemSize>	
-					<itemSpacing>0.01 0.015</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="16:10">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.132 0.298593103448276</itemSize>	
-					<itemSpacing>0.01 0.016</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="16:9">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.132 0.331770114942529</itemSize>	
-					<itemSpacing>0.01 0.0177777777777778</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="19.5:9">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.132 0.404344827586207</itemSize>	
-					<itemSpacing>0.01 0.0216666666666667</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="21:9">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.108333333333333 0.357375478927203</itemSize>	
-					<itemSpacing>0.01 0.0233333333333333</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-		<aspectRatio name="8:7">				
-			<view name="gamelist">			
-				<grid name="game-grid">		
-					<itemSize>0.1675 0.271893358876117</itemSize>	
-					<itemSpacing>0.01 0.0114814814814815</itemSpacing>	
-				</grid>		
-			</view>			
-		</aspectRatio>				
-	</variant>					
+	<aspectRatio name="1:1">					
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.1675 0.23681</gridItemSize>		
+				<gridItemSpacing>0.01 0.01</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.22666 0.32045</gridItemSize>		
+				<gridItemSpacing>0.01 0.01</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="5:4">					
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.132 0.23327</gridItemSize>		
+				<gridItemSpacing>0.01 0.0125</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1675 0.29601</gridItemSize>		
+				<gridItemSpacing>0.01 0.0125</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="4:3">					
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.132 0.24882</gridItemSize>		
+				<gridItemSpacing>0.01 0.01333</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1675 0.31574</gridItemSize>		
+				<gridItemSpacing>0.01 0.01333</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="3:2">					
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.132 0.27993</gridItemSize>		
+				<gridItemSpacing>0.01 0.015</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1675 0.35521</gridItemSize>		
+				<gridItemSpacing>0.01 0.015</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="16:10">					
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.132 0.29859</gridItemSize>		
+				<gridItemSpacing>0.01 0.016</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1675 0.37889</gridItemSize>		
+				<gridItemSpacing>0.01 0.016</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="16:9">					
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.132 0.33177</gridItemSize>		
+				<gridItemSpacing>0.01 0.01777</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1675 0.42099</gridItemSize>		
+				<gridItemSpacing>0.01 0.01777</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="19.5:9">					
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.132 0.40434</gridItemSize>		
+				<gridItemSpacing>0.01 0.02166</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1675 0.51308</gridItemSize>		
+				<gridItemSpacing>0.01 0.02166</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="21:9">					
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.10833 0.35737</gridItemSize>		
+				<gridItemSpacing>0.01 0.02333</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.132 0.43544</gridItemSize>		
+				<gridItemSpacing>0.01 0.02333</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="8:7">					
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.1675 0.27189</gridItemSize>		
+				<gridItemSpacing>0.01 0.01148</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.22666 0.36793</gridItemSize>		
+				<gridItemSpacing>0.01 0.01148</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
 </theme>						

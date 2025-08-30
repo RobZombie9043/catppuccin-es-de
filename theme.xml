@@ -1,5 +1,5 @@
 <!--
-theme name: 	Retro-lab
+theme name: 	Catppuccin
 designed by:   	Rob Zombie
 license:      	creative commons CC-BY-NC-SA
 -->
@@ -141,13 +141,12 @@ license:      	creative commons CC-BY-NC-SA
 		</view>
 	</variant>
 	
-	
 	<!--
 	///
 	System View - Textlist
 	///
 	-->
-	<variant name="textlist-grid-large, textlist-grid-small, textlist">	
+	<variant name="textlist-grid, textlist, textlist-textlist-cover, textlist-textlist-miximage">	
 		<view name="system">
 			<textlist name="system-textlist">
 				<origin>0.5 0.5</origin>
@@ -155,7 +154,7 @@ license:      	creative commons CC-BY-NC-SA
 				<horizontalAlignment>center</horizontalAlignment>
 				<size>0.6875 0.65</size>
 				<fontPath>${fontPixelOperatorBold}</fontPath>
-				<fontSize>${fontSizeH1}</fontSize>
+				<fontSize>${fontSizeList}</fontSize>
 				<lineSpacing>${textlistLineSpacing}</lineSpacing>
 				<selectorColor>00000000</selectorColor>
 				<primaryColor>${surface2}</primaryColor>
@@ -177,11 +176,16 @@ license:      	creative commons CC-BY-NC-SA
 	System View - Grid
 	///
 	-->
-	<variant name="grid-grid-large, grid-grid-small">	
+	<include>./_inc/systems/system-grid/system-grid.xml</include>
+	
+	<variant name="grid-grid, grid-textlist-cover, grid-textlist-miximage">	
 		<view name="system">
 			<grid name="system-grid">
 				<origin>0.5 0.5</origin>
 				<pos>0.5 0.5</pos>
+				<size>${sysGridSize}</size>
+				<itemSize>${sysGridItemSize}</itemSize>
+				<itemSpacing>${sysGridItemSpacing}</itemSpacing>
 				<staticImage>./_inc/systems/logos/${palette}/${system.theme}.png</staticImage>
 				<itemScale>1.05</itemScale>
 				<imageRelativeScale>0.99</imageRelativeScale>
@@ -198,203 +202,14 @@ license:      	creative commons CC-BY-NC-SA
 			</grid>
 		</view>
 	</variant>
-	
-	<variant name="grid-grid-small">	
-		<aspectRatio name="1:1">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.75 0.75</size>
-					<itemSize>0.233333333333333 0.233333333333333</itemSize>
-					<itemSpacing>0.025 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="5:4">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.806666666666667 0.75</size>
-					<itemSize>0.186666666666667 0.233333333333333</itemSize>
-					<itemSpacing>0.02 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="4:3">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.75625 0.75</size>
-					<itemSize>0.175 0.233333333333333</itemSize>
-					<itemSpacing>0.01875 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="3:2">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.844444444444444 0.75</size>
-					<itemSize>0.155555555555556 0.233333333333333</itemSize>
-					<itemSpacing>0.0166666666666667 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="16:10">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.791666666666667 0.75</size>
-					<itemSize>0.145833333333333 0.23329</itemSize>
-					<itemSpacing>0.015625 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="16:9">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.8578125 0.75</size>
-					<itemSize>0.13125 0.233333333333333</itemSize>
-					<itemSpacing>0.0140625 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="19.5:9">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.823076923076923 0.75</size>
-					<itemSize>0.107692307692308 0.233333333333333</itemSize>
-					<itemSpacing>0.0115384615384615 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="21:9">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.875 0.75</size>
-					<itemSize>0.1 0.233333333333333</itemSize>
-					<itemSpacing>0.0107142857142857 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="8:7">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.878225806451613 0.75</size>
-					<itemSize>0.203225806451613 0.233333333333333</itemSize>
-					<itemSpacing>0.0217741935483871 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-	</variant>
-   
-   <variant name="grid-grid-large">	
-		<aspectRatio name="1:1">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.75 0.75</size>
-					<itemSize>0.233333333333333 0.233333333333333</itemSize>
-					<itemSpacing>0.025 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="5:4">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.91 0.75</size>
-					<itemSize>0.29 0.3625</itemSize>
-					<itemSpacing>0.02 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="4:3">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.853125 0.75</size>
-					<itemSize>0.271875 0.3625</itemSize>
-					<itemSpacing>0.01875 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="3:2">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.758333333333333 0.75</size>
-					<itemSize>0.241666666666667 0.3625</itemSize>
-					<itemSpacing>0.0166666666666667 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="16:10">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.7109375 0.75</size>
-					<itemSize>0.2265625 0.3625</itemSize>
-					<itemSpacing>0.015625 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="16:9">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.8578125 0.75</size>
-					<itemSize>0.20390625 0.3625</itemSize>
-					<itemSpacing>0.0140625 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="19.5:9">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.882692307692308 0.75</size>
-					<itemSize>0.167307692307692 0.3625</itemSize>
-					<itemSpacing>0.0115384615384615 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="21:9">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.819642857142857 0.75</size>
-					<itemSize>0.155357142857143 0.3625</itemSize>
-					<itemSpacing>0.0107142857142857 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-		<aspectRatio name="8:7">			
-			<view name="system">		
-				<grid name="system-grid">	
-					<size>0.878225806451613 0.75</size>
-					<itemSize>0.203225806451613 0.233333333333333</itemSize>
-					<itemSpacing>0.0217741935483871 0.025</itemSpacing>
-				</grid>	
-			</view>		
-		</aspectRatio>			
-					
-	</variant>
-   
+  
 	<!--
 	///
-	Gamelist View - Grid
+	Gamelist View - General
 	///
 	-->
-	<include>./_inc/systems/coversize-grid/${systemCoverSize}.xml</include>
-	<variant name="textlist-grid-large, textlist-grid-small, grid-grid-large, grid-grid-small">	
+	<variant name="all">
 		<view name="gamelist">
-			<grid name="game-grid">
-				<origin>0 0</origin>
-				<pos>0.25 0.23</pos>
-				<size>0.7001 0.67</size>
-				<imageType>cover</imageType>
-				<itemScale>1.025</itemScale>
-				<imageRelativeScale>0.99</imageRelativeScale>
-				<scaleInwards>true</scaleInwards>
-				<fractionalRows>true</fractionalRows>
-				<imageCornerRadius>0.005</imageCornerRadius>
-				<selectorImage>./_inc/images/grid-selector.svg</selectorImage>
-				<selectorColor>${yellow}</selectorColor>
-				<selectorLayer>top</selectorLayer>
-				<selectorCornerRadius>0.009</selectorCornerRadius>
-				<textColor>${text}</textColor>
-				<fontPath>${fontPixelOperator}</fontPath>
-				<fontSize>${fontSizeCaption}</fontSize>
-				<textRelativeScale>0.8</textRelativeScale>
-			</grid>
 			<text name="systemName, autoCollectionName, customCollectionName">
 				<origin>0.5 0.5</origin>
 				<pos>0.5 0.045</pos>
@@ -418,6 +233,59 @@ license:      	creative commons CC-BY-NC-SA
 				<text>${system.fullName.customCollections}</text>
 				<letterCase>capitalize</letterCase>
 			</text>
+			<video name="catpuccin-header-animated">
+				<origin>0.5 1</origin>
+				<pos>0.5 0.1</pos>
+				<size>1 0.01</size>
+				<path>./_inc/images/accent_bar_${palette}.mp4</path>
+				<stationary>always</stationary> 
+				<fadeInType>transparent</fadeInType>
+				<fadeInTime>0</fadeInTime>
+				<zIndex>4</zIndex>
+			</video>
+			<video name="catpuccin-footer-animated">
+				<origin>0.5 0</origin>
+				<pos>0.5 0.9</pos>
+				<size>1 0.01</size>
+				<path>./_inc/images/accent_bar_${palette}.mp4</path>
+				<stationary>always</stationary> 
+				<fadeInType>transparent</fadeInType>
+				<fadeInTime>0</fadeInTime>
+				<zIndex>61</zIndex>
+			</video>
+		</view>		
+	</variant>
+	
+	<!--
+	///
+	Gamelist View - Grid
+	///
+	-->
+	<include>./_inc/systems/coversize-grid/${systemCoverSize}.xml</include>
+	
+	<variant name="textlist-grid, grid-grid">	
+		<view name="gamelist">
+			<grid name="game-grid">
+				<origin>0 0</origin>
+				<pos>0.25 0.23</pos>
+				<size>0.7001 0.67</size>
+				<itemSize>${gridItemSize}</itemSize>
+				<itemSpacing>${gridItemSpacing}</itemSpacing>
+				<imageType>cover</imageType>
+				<itemScale>1.025</itemScale>
+				<imageRelativeScale>0.99</imageRelativeScale>
+				<scaleInwards>true</scaleInwards>
+				<fractionalRows>true</fractionalRows>
+				<imageCornerRadius>0.005</imageCornerRadius>
+				<selectorImage>./_inc/images/grid-selector.svg</selectorImage>
+				<selectorColor>${yellow}</selectorColor>
+				<selectorLayer>top</selectorLayer>
+				<selectorCornerRadius>0.009</selectorCornerRadius>
+				<textColor>${text}</textColor>
+				<fontPath>${fontPixelOperator}</fontPath>
+				<fontSize>${fontSizeCaption}</fontSize>
+				<textRelativeScale>0.8</textRelativeScale>
+			</grid>
 			<text name="game-name">
 				<origin>0 0.5</origin>
 				<pos>0.25 0.165</pos>
@@ -485,32 +353,35 @@ license:      	creative commons CC-BY-NC-SA
 				<color>${text}</color>
 				<letterCase>none</letterCase>
 			</text>
-			<video name="catpuccin-header-animated">
-				<origin>0.5 1</origin>
-				<pos>0.5 0.1</pos>
-				<size>1 0.01</size>
-				<path>./_inc/images/accent_bar_${palette}.mp4</path>
-				<stationary>always</stationary> 
-				<fadeInType>transparent</fadeInType>
-				<fadeInTime>0</fadeInTime>
-				<zIndex>4</zIndex>
-			</video>
-			<video name="catpuccin-footer-animated">
-				<origin>0.5 0</origin>
-				<pos>0.5 0.9</pos>
-				<size>1 0.01</size>
-				<path>./_inc/images/accent_bar_${palette}.mp4</path>
-				<stationary>always</stationary> 
-				<fadeInType>transparent</fadeInType>
-				<fadeInTime>0</fadeInTime>
-				<zIndex>61</zIndex>
-			</video>
 		</view>		
 	</variant>
 	
 	<!--
 	///
-	Gamelist View - Textlist
+	Gamelist View - Textlist (General)
+	///
+	-->
+	<variant name="textlist, grid-textlist-cover, textlist-textlist-cover, grid-textlist-miximage, textlist-textlist-miximage">	
+		<view name="gamelist">
+			<textlist name="game-textlist">
+				<fontPath>${fontPixelOperatorBold}</fontPath>
+				<fontSize>${fontSizeList}</fontSize>
+				<lineSpacing>${textlistLineSpacing}</lineSpacing>
+				<selectorColor>00000000</selectorColor>
+				<primaryColor>${surface2}</primaryColor>
+				<secondaryColor>${surface2}</secondaryColor>
+				<selectedColor>${green}</selectedColor>
+				<selectedSecondaryColor>${green}</selectedSecondaryColor>
+				<selectedBackgroundColor>${surface2}</selectedBackgroundColor>
+				<selectedSecondaryBackgroundColor>${surface2}</selectedSecondaryBackgroundColor>
+				<selectedBackgroundCornerRadius>0.03</selectedBackgroundCornerRadius>
+			</textlist>
+		</view>			
+	</variant>
+	
+	<!--
+	///
+	Gamelist View - Textlist (Basic)
 	///
 	-->
 	<variant name="textlist">	
@@ -520,62 +391,47 @@ license:      	creative commons CC-BY-NC-SA
 				<pos>0.5 0.5</pos>
 				<horizontalAlignment>center</horizontalAlignment>
 				<size>0.6875 0.65</size>
-				<fontPath>${fontPixelOperatorBold}</fontPath>
-				<fontSize>${fontSizeH1}</fontSize>
-				<lineSpacing>${textlistLineSpacing}</lineSpacing>
-				<selectorColor>00000000</selectorColor>
-				<primaryColor>${surface2}</primaryColor>
-				<secondaryColor>${surface2}</secondaryColor>
-				<selectedColor>${green}</selectedColor>
-				<selectedSecondaryColor>${green}</selectedSecondaryColor>
-				<selectedBackgroundColor>${surface2}</selectedBackgroundColor>
-				<selectedSecondaryBackgroundColor>${surface2}</selectedSecondaryBackgroundColor>
 				<selectedBackgroundMargins>0.1 0.1</selectedBackgroundMargins>
-				<selectedBackgroundCornerRadius>0.03</selectedBackgroundCornerRadius>
 			</textlist>
-			<text name="systemName, autoCollectionName, customCollectionName">
+		</view>			
+	</variant>
+	
+	<!--
+	///
+	Gamelist View - Textlist (Detailed)
+	///
+	-->
+	<variant name="grid-textlist-cover, textlist-textlist-cover, grid-textlist-miximage, textlist-textlist-miximage">	
+		<view name="gamelist">
+			<textlist name="game-textlist">
+				<origin>0 0.5</origin>
+				<pos>0.1 0.5</pos>
+				<horizontalAlignment>left</horizontalAlignment>
+				<size>0.4 0.65</size>
+				<selectedBackgroundMargins>0.05 0.05</selectedBackgroundMargins>
+			</textlist>
+			<image name="game-image">
 				<origin>0.5 0.5</origin>
-				<pos>0.5 0.045</pos>
-				<size>0.7 0.06</size>
-				<horizontalAlignment>center</horizontalAlignment>
-				<lineSpacing>1</lineSpacing>
-				<fontPath>${fontPixelOperator}</fontPath>
-				<fontSize>${fontSizeBody}</fontSize>
-				<color>${mauve}</color>
-				<stationary>always</stationary>
-			</text>
-			<text name="systemName">
-				<text>${system.fullName.noCollections}</text>
-				<letterCase>none</letterCase>
-			</text>
-			<text name="autoCollectionName">
-				<text>${system.fullName.autoCollections}</text>
-				<letterCase>capitalize</letterCase>
-			</text>
-			<text name="customCollectionName">
-				<text>${system.fullName.customCollections}</text>
-				<letterCase>capitalize</letterCase>
-			</text>
-			<video name="catpuccin-header-animated">
-				<origin>0.5 1</origin>
-				<pos>0.5 0.1</pos>
-				<size>1 0.01</size>
-				<path>./_inc/images/accent_bar_${palette}.mp4</path>
-				<stationary>always</stationary> 
-				<fadeInType>transparent</fadeInType>
-				<fadeInTime>0</fadeInTime>
-				<zIndex>4</zIndex>
-			</video>
-			<video name="catpuccin-footer-animated">
-				<origin>0.5 0</origin>
-				<pos>0.5 0.9</pos>
-				<size>1 0.01</size>
-				<path>./_inc/images/accent_bar_${palette}.mp4</path>
-				<stationary>always</stationary> 
-				<fadeInType>transparent</fadeInType>
-				<fadeInTime>0</fadeInTime>
-				<zIndex>61</zIndex>
-			</video>
+				<pos>0.775 0.5</pos>
+				<maxSize>0.35 0.65</maxSize>
+			</image>
+		</view>			
+	</variant>
+	
+	<variant name="grid-textlist-cover, textlist-textlist-cover">	
+		<view name="gamelist">
+			<image name="game-image">
+				<imageType>cover</imageType>
+				<cornerRadius>0.03</cornerRadius>
+			</image>
+		</view>			
+	</variant>
+	
+	<variant name="grid-textlist-miximage, textlist-textlist-miximage">	
+		<view name="gamelist">
+			<image name="game-image">
+				<imageType>miximage</imageType>
+			</image>
 		</view>			
 	</variant>
 	
@@ -584,25 +440,19 @@ license:      	creative commons CC-BY-NC-SA
 	Font Size
 	///
 	-->
-	<fontSize name="small">
-		<variables>
-			<fontSizeH1>0.055</fontSizeH1> 
-			<fontSizeBody>0.04</fontSizeBody> 
-			<fontSizeCaption>0.0325</fontSizeCaption>
-			<textlistLineSpacing>1.72</textlistLineSpacing>
-		</variables>
-	</fontSize>
 	<fontSize name="medium">
 		<variables>
-			<fontSizeH1>0.05875</fontSizeH1> 
+			<fontSizeH1>0.05875</fontSizeH1> <!--0.05875-->
+			<fontSizeList>0.0525</fontSizeList>
 			<fontSizeBody>0.045</fontSizeBody> 
 			<fontSizeCaption>0.03625</fontSizeCaption>
-			<textlistLineSpacing>1.595</textlistLineSpacing>
+			<textlistLineSpacing>1.36</textlistLineSpacing> <!--1.595-->
 		</variables>
 	</fontSize>
 	<fontSize name="large">
 		<variables>
-			<fontSizeH1>0.0625</fontSizeH1> 
+			<fontSizeH1>0.0625</fontSizeH1>
+			<fontSizeList>0.0625</fontSizeList>			
 			<fontSizeBody>0.05</fontSizeBody> 
 			<fontSizeCaption>0.04</fontSizeCaption>
 			<textlistLineSpacing>1.48</textlistLineSpacing>			
