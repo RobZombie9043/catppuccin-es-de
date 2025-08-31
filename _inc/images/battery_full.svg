@@ -1,39 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   fill="none"
    viewBox="0 0 28 24"
    version="1.1"
-   id="svg1"
-   sodipodi:docname="battery_full.svg"
-   width="28"
-   height="24"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="33.958333"
-     inkscape:cx="12"
-     inkscape:cy="12"
-     inkscape:window-width="2560"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg1" />
-  <path
-     d="M 18,5 H 2 v 14 h 18 v -4 h 2 V 9 H 20 V 5 Z m 0,2 V 17 H 4 V 7 Z M 8,9 H 6 v 6 h 2 z m 2,0 h 2 v 6 h -2 z m 6,0 h -2 v 6 h 2 z"
-     fill="#ffffff"
-     id="path1" />
+   xmlns="http://www.w3.org/2000/svg">
+  <!-- Battery body -->
+  <path d="M18 5H2v14h18v-4h2V9h-2V5z" fill="#ffffff"/>
+  <!-- Full solid interior -->
+  <rect x="4" y="7" width="14" height="10" fill="#ffffff"/>
 </svg>
