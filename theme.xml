@@ -262,6 +262,7 @@ license:      	creative commons CC-BY-NC-SA
 	///
 	-->
 	<include>./_inc/systems/coversize-grid/${systemCoverSize}.xml</include>
+	<include>./_inc/systems/system-colors/${palette}/${system.theme}.xml</include>
 	
 	<variant name="textlist-grid, grid-grid">	
 		<view name="gamelist">
@@ -278,7 +279,7 @@ license:      	creative commons CC-BY-NC-SA
 				<fractionalRows>true</fractionalRows>
 				<imageCornerRadius>0.005</imageCornerRadius>
 				<selectorImage>./_inc/images/grid-selector.svg</selectorImage>
-				<selectorColor>${yellow}</selectorColor>
+				<selectorColor>${systemCatppuccinColor}</selectorColor>
 				<selectorLayer>top</selectorLayer>
 				<selectorCornerRadius>0.009</selectorCornerRadius>
 				<textColor>${text}</textColor>
